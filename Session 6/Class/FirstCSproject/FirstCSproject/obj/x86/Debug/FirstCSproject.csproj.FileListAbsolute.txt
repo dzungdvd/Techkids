@@ -1,0 +1,4 @@
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Class\FirstCSproject\FirstCSproject\bin\Debug\FirstCSproject.exe
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Class\FirstCSproject\FirstCSproject\bin\Debug\FirstCSproject.pdb
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Class\FirstCSproject\FirstCSproject\obj\x86\Debug\FirstCSproject.exe
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Class\FirstCSproject\FirstCSproject\obj\x86\Debug\FirstCSproject.pdb
