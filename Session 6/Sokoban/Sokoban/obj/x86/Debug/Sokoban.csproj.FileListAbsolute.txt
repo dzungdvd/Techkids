@@ -1,0 +1,4 @@
+C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\bin\Debug\Sokoban.exe
+C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\bin\Debug\Sokoban.pdb
+C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\obj\x86\Debug\Sokoban.exe
+C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\obj\x86\Debug\Sokoban.pdb
