@@ -1,0 +1,5 @@
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Homework\Session2inC#\Session2inC#\bin\Debug\Session2inC#.exe
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Homework\Session2inC#\Session2inC#\bin\Debug\Session2inC#.pdb
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Homework\Session2inC#\Session2inC#\obj\x86\Debug\Session2inC#.csprojResolveAssemblyReference.cache
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Homework\Session2inC#\Session2inC#\obj\x86\Debug\Session2inC#.exe
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Homework\Session2inC#\Session2inC#\obj\x86\Debug\Session2inC#.pdb

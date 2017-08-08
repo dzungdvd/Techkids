@@ -2,3 +2,8 @@ C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\bin\Debug\Sokoban.exe
 C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\bin\Debug\Sokoban.pdb
 C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\obj\x86\Debug\Sokoban.exe
 C:\Users\Sinis\Documents\Projects\Sokoban\Sokoban\obj\x86\Debug\Sokoban.pdb
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\bin\Debug\Sokoban.exe
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\bin\Debug\Sokoban.pdb
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.csprojResolveAssemblyReference.cache
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.exe
+C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.pdb
