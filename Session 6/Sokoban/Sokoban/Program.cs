@@ -6,28 +6,14 @@ namespace Sokoban
 	{
 		public static void Main (string[] args)
 		{
-			Map map = new Map ();
-			Player player = new Player ();
-			InputProcessor inputProcessor = new InputProcessor ();
-			map.player = player;
-			inputProcessor.player = player;
-
-			//game loop
-			//while True:
+			GameManager gameManager = new GameManager();
 			while (true) {
-				//print map
-				map.print();
-
-				//get user input
-				//Console.Write
-				string command = Console.ReadLine ();
-
-				//process user input (update player & box position)
-				inputProcessor.processCommand(command);
-
-				//win/loss conditions check
-
-
+				gameManager.DrawMap ();
+				gameManager.InputProcessor ();
+				gameManager.WinCheck ();
+				if (gameManager.isEnded) {
+					break;
+				}
 			}
 		}
 	}

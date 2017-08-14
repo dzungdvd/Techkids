@@ -7,3 +7,8 @@ C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\bin\Debug\Sokoban.pd
 C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.csprojResolveAssemblyReference.cache
 C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.exe
 C:\Users\Dvd\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.pdb
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.csprojResolveAssemblyReference.cache
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.exe
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\obj\x86\Debug\Sokoban.pdb
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\bin\Debug\Sokoban.exe
+C:\Users\Sinis\Desktop\Techkids\Git\Session 6\Sokoban\Sokoban\bin\Debug\Sokoban.pdb

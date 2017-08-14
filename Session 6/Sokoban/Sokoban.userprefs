@@ -1,11 +1,9 @@
 ﻿<Properties StartupItem="Sokoban\Sokoban.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Sokoban\Map.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sokoban\GameManager.cs">
     <Files>
-      <File FileName="Sokoban\Program.cs" Line="1" Column="1" />
-      <File FileName="Sokoban\Map.cs" Line="28" Column="5" />
-      <File FileName="Sokoban\Player.cs" Line="1" Column="1" />
-      <File FileName="Sokoban\InputProcessor.cs" Line="1" Column="1" />
+      <File FileName="Sokoban\Program.cs" Line="15" Column="12" />
+      <File FileName="Sokoban\GameManager.cs" Line="16" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

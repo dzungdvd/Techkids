@@ -6,20 +6,24 @@ namespace Sokoban
 	{
 		public int x;
 		public int y;
-		public Player ()
-		{
-		}
 
-		public void moveRight(){
+		public void moveRight ()
+		{
 			x++;
 		}
-		public void moveLeft(){
+
+		public void moveLeft ()
+		{
 			x--;
 		}
-		public void moveUp(){
+
+		public void moveUp ()
+		{
 			y--;
 		}
-		public void moveDown(){
+
+		public void moveDown ()
+		{
 			y++;
 		}
 	}
