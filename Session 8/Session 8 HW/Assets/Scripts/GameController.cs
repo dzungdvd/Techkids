@@ -13,28 +13,30 @@ public class GameController : MonoBehaviour {
 	public Button yes;
 	public Button play;
 
-	float guessNumber;
-	float lowerBound;
-	float upperBound;
+	int guessNumber;
+	int lowerBound;
+	int upperBound;
 	int guessCount;
 
 	// Use this for initialization
 	void Start () {
 		minNumber = 1;
 		maxNumber = 10000;
-		Instruction ();
+
+		displayText.text = string.Format("Think of an integer between {0} and {1} and I'll guess that number.", minNumber, maxNumber);
+		SetButton ("notplaying");
 	}
 
 	public void AnswerLower()
 	{
-		upperBound = guessNumber;
-		Guess ();
+			upperBound = guessNumber - 1;
+			Guess ();
 	}
 
 	public void AnswerHigher()
 	{
-		lowerBound = guessNumber;
-		Guess ();
+			lowerBound = guessNumber + 1;
+			Guess ();
 	}
 
 	public void AnswerYes()
@@ -43,24 +45,19 @@ public class GameController : MonoBehaviour {
 		SetButton ("notplaying");
 	}
 
-	public void Cheat()
-	{
-		displayText.text = string.Format("Cheating is for the weak.");
-		SetButton ("notplaying");
-	}
-
 	public void Guess()
 	{
-		guessCount++;
-		guessNumber = (lowerBound + upperBound) / 2;
-		if (upperBound - lowerBound > 0.5) {
-			displayText.text = string.Format ("Is {0} your number?", Mathf.RoundToInt (guessNumber));
-			print (lowerBound);
-			print (guessNumber);
-			print (upperBound);
+		if (upperBound < lowerBound) {
+			displayText.text = string.Format ("Cheating is for the weak.");
+			SetButton ("notplaying");
 		} else {
-			Cheat ();
+			guessCount++;
+			guessNumber = (lowerBound + upperBound) / 2;
+			displayText.text = string.Format ("Is {0} your number?", guessNumber);
 		}
+		print (lowerBound);
+		print (guessNumber);
+		print (upperBound);
 	}
 
 	public void NewGame()
@@ -70,12 +67,6 @@ public class GameController : MonoBehaviour {
 		upperBound = maxNumber;
 		guessCount = 0;
 		Guess ();
-	}
-
-	public void Instruction()
-	{
-		displayText.text = string.Format("Think of an integer between {0} and {1} and I'll guess that number.", minNumber, maxNumber);
-		SetButton ("notplaying");
 	}
 
 	public void SetButton(string state)
