@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		minNumber = 1;
-		maxNumber = 4;
+		maxNumber = 10000;
 		Instruction ();
 	}
 
