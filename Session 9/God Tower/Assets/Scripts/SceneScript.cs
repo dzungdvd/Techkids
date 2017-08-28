@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class SceneScript : MonoBehaviour {
 
@@ -9,6 +10,7 @@ public class SceneScript : MonoBehaviour {
 	public InputField inputField;
 	public Button submitButton;
 	public Text hintText;
+	public string nextLevel;
 
 	public string levelContent = "LEVELS";
 	public string levelNumber;
@@ -32,7 +34,7 @@ public class SceneScript : MonoBehaviour {
 	{
 		if (answer == levelAnswer) {
 			hintText.text = "Yay!";
-			//TODO: Change scene
+			SceneManager.LoadScene (nextLevel);
 		} else {
 			hintText.text = "Wrong answer!";
 			hintText.color = Color.red;

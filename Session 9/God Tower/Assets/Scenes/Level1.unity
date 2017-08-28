@@ -1079,6 +1079,7 @@ MonoBehaviour:
   inputField: {fileID: 935165725}
   submitButton: {fileID: 1620145856}
   hintText: {fileID: 1921452449}
+  nextLevel: Level4
   levelContent: LEVELS
   levelNumber: 1
   levelAnswer: kabul
