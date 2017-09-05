@@ -15,6 +15,17 @@ public class Fuel : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
+	void OnCollisonEnter(Collison col)
+	{
+		if (col.gameObject.name == "BuffFuel") {
+			CurrentFuel += 50;
+			if (CurrentFuel > 0)
+				CurrentFuel = 100;
+				
+		} 
+	}
+
+
 	void Update () 
 	{
 		if (Input.GetMouseButtonDown(0)) 

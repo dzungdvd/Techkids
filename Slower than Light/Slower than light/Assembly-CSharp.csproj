@@ -51,8 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Collison.cs" />
      <Compile Include="Assets\Scripts\Fuel.cs" />
      <Compile Include="Assets\Scripts\GravityScript.cs" />
+     <Compile Include="Assets\Scripts\MainMenuControll.cs" />
      <Compile Include="Assets\Scripts\PlanetScript.cs" />
      <Compile Include="Assets\Scripts\RoundShapedVectorScript.cs" />
  <Reference Include="UnityEngine.UI">
