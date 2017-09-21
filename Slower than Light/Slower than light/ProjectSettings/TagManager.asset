@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - planet
+  - powerUp
+  - goal
+  - blocker
+  - subGoal
   layers:
   - Default
   - TransparentFX

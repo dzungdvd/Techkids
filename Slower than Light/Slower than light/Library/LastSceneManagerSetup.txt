@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/sceneNghia.unity
+- path: Assets/Scenes/0.2MainMenu.unity
   isLoaded: 1
   isActive: 1

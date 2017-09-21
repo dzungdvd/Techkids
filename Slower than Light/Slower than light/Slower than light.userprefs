@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GravityScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\FuelUI.cs">
     <Files>
-      <File FileName="Assets\Scripts\GravityScript.cs" Line="10" Column="17" />
+      <File FileName="Assets\Scripts\OrbitController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlanetScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SubgoalController.cs" Line="13" Column="46" />
+      <File FileName="Assets\Scripts\popupController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\FuelUI.cs" Line="29" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

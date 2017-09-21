@@ -6,11 +6,4 @@ public class PlanetScript : MonoBehaviour {
 
 	public float mass;
 
-	void Start () {
-
-	}
-
-	void Update () {
-
-	}
 }

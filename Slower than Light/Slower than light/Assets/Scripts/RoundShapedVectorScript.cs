@@ -10,6 +10,8 @@ public class RoundShapedVectorScript : MonoBehaviour {
 	private Vector2 radiusVector;
 	private float angle = 270;
 	public float angleSpeed = 1;
+	public float horizonalLength;
+	public float verticalLength;
 
 
 	// Use this for initialization
@@ -27,13 +29,7 @@ public class RoundShapedVectorScript : MonoBehaviour {
 
 		}
 	}
-
-	void OnDrawGizmosSelected() {
-		UnityEditor.Handles.color = Color.red;
-		UnityEditor.Handles.DrawWireDisc (transform.parent.position, Vector3.forward, radius);
-
-	}
-
+		
 	// Update is called once per frame
 	void Update () {
 		radiusVector = rotate (Vector2.right, angle) * radius;
@@ -44,6 +40,6 @@ public class RoundShapedVectorScript : MonoBehaviour {
 		float rad = angle * Mathf.Deg2Rad;
 		float sin = Mathf.Sin (rad);
 		float cos = Mathf.Cos (rad);
-		return new Vector2 (cos * v.x - sin * v.y, sin * v.x + cos * v.y);
+		return new Vector2 ((cos * v.x - sin * v.y)*horizonalLength, (sin * v.x + cos * v.y)*verticalLength);
 	}
 }
