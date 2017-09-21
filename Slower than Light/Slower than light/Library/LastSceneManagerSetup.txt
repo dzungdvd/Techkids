@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/0.2MainMenu.unity
+=======
+- path: Assets/Scenes/sceneDung2.unity
+>>>>>>> b29f5544d2ce7f6f6c56405f8c411124fdb10198
   isLoaded: 1
   isActive: 1
