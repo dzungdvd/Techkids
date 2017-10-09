@@ -1,0 +1,3 @@
+[submodule "Assets/Scripts/TKLibs"]
+	path = Assets/Scripts/TKLibs
+	url = ../TKLibs.git
